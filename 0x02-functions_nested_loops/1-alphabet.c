@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - printing a-z in lowercase
+* print_alphabet  - printing a-z in lowercase
 * written by atom
 * Return: 0
 */
