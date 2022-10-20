@@ -1,7 +1,8 @@
+#include <main.h>
 #include <stdio.h>
 
 /**
-* main - print a line of code
+* main - print a to z in lowercase
 *
 * Return: 0
 */
