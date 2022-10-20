@@ -1,9 +1,7 @@
-#include <main.h>
 #include <stdio.h>
 
 /**
-* main - print a to z in lowercase
-*
+* main - print a - z in lowercase
 * Return: 0
 */
 
@@ -11,14 +9,15 @@ int main(void)
 
 {
 
-char I;
+char d;
 
-for (I = 'a'; I <= 'z'; I++)
+for (d = 'a'; d < = 'z'; d++)
 
 {
-printf("%d\n", I);
+
+printf("%c\n", d);
 
 }
-
 return (0);
+
 }
