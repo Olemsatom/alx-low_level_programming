@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
-* main - print a - z in lowercase
+* main - printing a-z in lowercase
+* written by atom
 * Return: 0
 */
 
-int main(void)
+void print_alphabet(void);
 
 {
 
-char d;
+char letter;
 
-for (d = 'a'; d < = 'z'; d++)
+for (letter = 'a'; letter < = 'z'; letter++)
 
-{
+_putchar(letter);
 
-printf("%c\n", d);
+_putchar('\n')
 
-}
 return (0);
 
 }
