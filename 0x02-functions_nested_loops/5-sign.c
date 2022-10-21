@@ -2,7 +2,7 @@
 
 /**
 * print_sign - print the sign of a number
-* @n: integer
+* @n: sign
 * Return: 0
 */
 
@@ -10,17 +10,17 @@
 int print_sign(int n)
 
 {
-char n
+char n;
 
 if (n > 0)
 _pitchar("+");
 return (1);
 
-if (n < 0)
+else (n < 0)
 _putchar("-");
 return (-1);
 
-if (n == 0)
+else (n == 0)
 _putchar("0")
 return (0);
 
