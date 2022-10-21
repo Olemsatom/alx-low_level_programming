@@ -10,6 +10,7 @@
 int print_sign(int n)
 
 {
+char n
 
 if (n > 0)
 _pitchar("+");
