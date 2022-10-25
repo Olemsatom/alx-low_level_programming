@@ -2,22 +2,14 @@
 
 /**
 * add - function that adds two integers
-* a = first integer, b = second integer, d = answer
+* a = first integer, b = second integer
 * Return: value of the addition
 */
 
-int add(int, int)
+int add(int a, int b)
 
 {
 
-int a;
-int b;
-int d;
-
-a + b = d
-
-_putchar('%d\n', d)
-
-return (0)
+return (a + b);
 
 }
