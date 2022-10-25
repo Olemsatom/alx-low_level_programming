@@ -1,17 +1,13 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
-* main - storing the address of variable into a pointer
-*
+* reset_to_98 - a function that takes a pointer to an int as parameter
+* and updates the value it points to to 98.
+* @n: input
 * Return: Always 0.
 */
-int main(void)
+void reset_to_98(int *n)
 {
-int n;
-int *p;
 
-n = 98;
-p = &n;
-return (0);
+*n = 98;
 }
