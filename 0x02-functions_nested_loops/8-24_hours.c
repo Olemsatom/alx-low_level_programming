@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-* jack_bauer - prints every minute of the day
+* jack_bauer- prints every minute of the day
 * Description: prints every minute of the day
 * hour: hours of the day
 * minutes: minutes of the day
@@ -33,3 +33,4 @@ _putchar('\n');
 }
 
 }
+
