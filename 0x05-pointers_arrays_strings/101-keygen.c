@@ -11,19 +11,19 @@ int main(void)
 {
 
 int pass [100];
-int i, sum n;
+int i, sum, n;
 
 sum = 0;
 
-stand(time(NULL));
+srand(time(NULL));
 
-for (I = 0; i < 100; i++)
+for (i = 0; i < 100; i++)
 
 {
 
-pass[I] = Rand () %78;
+pass[i] = rand () %78;
 
-sum + = (pass [i] + '0');
+sum += (pass [i] + '0');
 putchar (pass[i] + '0');
 
 if((2772 - sum) - '0' < 78)
@@ -32,7 +32,7 @@ if((2772 - sum) - '0' < 78)
 
 n = 2772 - sum - '0';
 
-sum + = n;
+sum += n;
 
 putchar (n+'0');
 
