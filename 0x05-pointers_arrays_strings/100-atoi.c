@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
 * _atoi - convert a string to an integer
