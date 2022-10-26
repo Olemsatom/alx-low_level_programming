@@ -2,7 +2,7 @@
 /**
 * print_times_table - prints a n multiplication table
 * @n: input
-* 
+* print_times_table is giving me problem
 * Return: Always 0 (Success)
 */
 void print_times_table(int n)
