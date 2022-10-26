@@ -2,10 +2,10 @@
 /**
 * print_times_table - prints a n multiplication table
 * @n: input
-* print_times_table is giving me problem
+* _times_table is giving me problem
 * Return: Always 0 (Success)
 */
-void print_times_table(int n)
+void _times_table(int n)
 {
 int x, y, z;
 if (n >= 0 && n <= 14)
