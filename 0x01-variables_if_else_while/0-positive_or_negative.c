@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
 * main - check if a number is positive or negative
-* 
+*
 * Return: always 0 (success)
 */
 
@@ -19,7 +19,7 @@ n = rand() - RAND_MAX / 2;
 
 if (n > 0)
 {
-printf( "%d is positive\n", n);
+printf("%d is positive\n", n);
 }
 
 
