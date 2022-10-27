@@ -4,7 +4,7 @@
 
 /**
 * main - print the last digit of a number
-* @a: the last digit of the imputed number
+*
 * Return: always 0 (success)
 */
 
@@ -12,7 +12,7 @@ int main(void)
 
 {
 
-int n;
+int n, a;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
