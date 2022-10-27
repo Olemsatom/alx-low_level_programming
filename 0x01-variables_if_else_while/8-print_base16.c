@@ -9,19 +9,22 @@
 
 int main(void)
 
-
 {
 
+
 int n;
+
 char letter;
 
 
 n = 0;
 
-while(n < 10)
+while (n < 10)
 {
 
 putchar((n % 10) + '0');
+
+n++;
 
 }
 
@@ -31,6 +34,7 @@ for (letter = 'a'; letter <= 'f';)
 {
 
 putchar(letter);
+
 letter++;
 
 }
