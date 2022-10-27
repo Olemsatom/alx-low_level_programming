@@ -21,7 +21,7 @@ for (letter = 'z'; letter >= 'a';)
 
 putchar(letter);
 
-letter–;
+letter--;
 }
 
 putchar('\n');
