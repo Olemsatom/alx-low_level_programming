@@ -9,16 +9,18 @@ int main(void)
 
 {
 
-char n;
+char letter;
 
-for (n = 'a'; n <= 'z'; n++)
+for (letter = 'a'; letter <= 'z';)
 
 {
-putchar('n');
 
-putchar('\n');
+putchar(letter);
+letter++;
 
 }
+
+putchar('\n');
 
 return (0);
 
