@@ -9,7 +9,7 @@ int main(void)
 
 {
 
-num a;
+int num;
 
 num = 0;
 
