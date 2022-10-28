@@ -1,10 +1,11 @@
 #include <stdio.h>
 
- /**
-* main - Prints all possible combinations of single-digit numbers
-* @num: number to be printed
-* Return: Always 0
+/**
+* main - print 0 t0 9 with a comma after each digit
+*
+* Return: always 0 (success)
 */
+
 
 int main(void)
 
