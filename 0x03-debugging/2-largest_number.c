@@ -11,9 +11,7 @@
 int largest_number(void)
 {
 int largest;
-int a;
-int b;
-int c;
+int a, b, c;
 
 if (a > b && b > c)
 {
