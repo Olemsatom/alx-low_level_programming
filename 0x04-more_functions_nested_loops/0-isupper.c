@@ -3,7 +3,7 @@
 
 /**
  * _isupper - check the code.
- *
+ * @c: the character to print
  * Return: Always 0.
  */
 int _isupper(int c)
@@ -14,5 +14,8 @@ return (1);
 }
 else
 {
+return (0);
+}
+
 return (0);
 }
