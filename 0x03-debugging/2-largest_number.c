@@ -8,9 +8,12 @@
  * Return: largest number
  */
 
-int largest_number(a, b, c)
+int largest_number(void)
 {
 int largest;
+int a;
+int b;
+int c;
 
 if (a > b && b > c)
 {
