@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * _isdigit - check the code.
  * @c: the character to print
