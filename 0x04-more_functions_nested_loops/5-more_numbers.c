@@ -13,7 +13,8 @@ while (j < 11)
 {
 for (a = 0; a <= 14; a++)
 {
-_putchar('0' + a);
+_putchar(a);
+
 }
 _putchar('\n');
 j++;
