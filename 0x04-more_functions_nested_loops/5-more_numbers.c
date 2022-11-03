@@ -7,13 +7,13 @@
  */
 void more_numbers(void)
 {
-int a, j;
+int digit, j;
 j = 1;
 while (j < 11)
 {
-for (a = 0; a <= 14; a++)
+for (digit = 0; digit <= 14; digit++)
 {
-_putchar(a);
+_putchar(digit);
 
 }
 _putchar('\n');
