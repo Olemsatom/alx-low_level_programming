@@ -23,7 +23,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 
 	newNode->next = *head; /*first link new node to point to first node*/
 
-	*head = newNode; /*then switch lis
+	*head = newNode; /*then switch list pointer to oint to new node*/
 
 	return (newNode);
 }
