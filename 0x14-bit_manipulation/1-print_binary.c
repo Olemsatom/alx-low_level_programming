@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 *print_recursion - prints the binary representation of n
 *@n: number to print in binary
