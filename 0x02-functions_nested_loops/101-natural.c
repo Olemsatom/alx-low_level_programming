@@ -1,41 +1,24 @@
 #include <stdio.h>
-#include "main.h"
 /**
-* times_table - prints a n multiplication table
-* @n: input
-* 
-* Return: Always 0 (Success)
-*/
-void times_table(int n)
+ * main - list all natural numbers multiples of 3 & 5
+ *
+ * Return: return 0 Always (Success)
+ */
+int main(void)
 {
-int x, y, z;
-if (n >= 0 && n <= 14)
-{
-for(x = 0; x <= n; x++)
-{
-for(y = 0; y <= n; y++)
-{
-z = x*y;;
-if(z > 99)
-{
-_putchar(',');
-_putchar(32);
-_putchar((z / 100) + '0');
-_putchar(((z / 10) % 10) + '0');
-_putchar((z % 10) + '0');
-}
-else 
-{
-if (y != 0)
-{
-_putchar(',');
-_putchar(32);
-_putchar(32);
-_putchar(32); 
-}
-_putchar(z + '0');
-}
-}_putchar('\n');
-}
-}
+	int digit, sum;
+
+	sum = 0;
+
+	for (digit = 0; digit < 1024; digit++)
+	{
+		if (digit % 3 == 0 || digit % 5 == 0)
+		{
+			sum += digit;
+		}
+	}
+
+	printf("%d\n", sum);
+
+	return (0);
 }
